@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>NOUTBUK PRO — Technology without limits</title>
+  <meta name="description" content="NOUTBUK PRO — noutbuklar katalogi, 1 vs 1 jang, taqqoslash, Setup yig‘ish, valyuta konvertori va rasmiy chekli buyurtma tizimi.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="load"><span>NOUTBUK PRO</span></div>
+  <div id="pb"></div>
+  <div id="cg"></div>
+
+  <header>
+    <button class="ic" id="burger" aria-label="Menyu">☰</button>
+    <a href="#home" class="logo">NOUTBUK PRO</a>
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#catalog">Noutbuklar</a>
+      <a href="#gaming">Gaming</a>
+      <a href="#macbook">MacBook</a>
+      <a href="#battle">1 vs 1 Jang</a>
+      <a href="#swipe">Svyap</a>
+      <a href="#setup">Setup</a>
+      <a href="#compare">Taqqoslash</a>
+      <a href="#news">Yangiliklar</a>
+      <a href="#about">Biz haqimizda</a>
+    </nav>
+    <button class="pill-btn" id="curr-btn" title="Valyutani almashtirish">🇺🇿 SO‘M</button>
+    <button class="ic" id="thm" aria-label="Qorong‘u va yorug‘ rejim" title="Mavzu">🌙</button>
+    <button class="ic" id="bFav" aria-label="Sevimlilar">♡<b id="cF">0</b></button>
+    <button class="ic" id="bCart" aria-label="Savatcha">🛒<b id="cC">0</b></button>
+    <button class="ic" id="bProf" aria-label="Profil">☺</button>
+  </header>
+
+  <main>
+    <div class="pg" id="p-home">
+      <div class="hero">
+        <div class="bgv"></div>
+        <div class="grid"></div>
+        <div class="in">
+          <div>
+            <h1>TECHNOLOGY WITHOUT LIMITS.</h1>
+            <p style="font-size:20px;color:#fff">Kelajak texnologiyalari bugundan boshlanadi.</p>
+            <p>12 ta kuchli noutbuk modeli, 1 vs 1 jang rejimi, X-Ray va RGB klaviatura simulyatori, Setup yig‘ish hamda rasmiy chekli buyurtma tizimi.</p>
+            <div class="row">
+              <a class="btn" href="#catalog" style="flex:0">Noutbuklarni ko‘rish</a>
+              <a class="btn g" href="#battle" style="flex:0;color:#fff">1 vs 1 Jang</a>
+            </div>
+          </div>
+          <div class="hero-media" id="heroMediaBox"></div>
+        </div>
+      </div>
+
+      <div class="mq"><div id="mqi"></div></div>
+
+      <section>
+        <h2>Eng kuchli noutbuklar (3D Karusel)</h2>
+        <div class="stage"><div class="ring" id="ring"></div></div>
+        <p class="mu" style="text-align:center">Kursorni olib borsangiz aylanish to‘xtaydi · Modelni bosib batafsil ko‘ring</p>
+      </section>
+
+      <section>
+        <div class="stats">
+          <div class="stat"><b data-n="12">0</b>Model</div>
+          <div class="stat"><b data-n="10">0</b>Brend</div>
+          <div class="stat"><b data-n="25000">0</b>Mijoz</div>
+          <div class="stat"><b data-n="98">0</b>% Mamnunlik</div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Brendlar</h2>
+        <div class="brands" id="brandHome"></div>
+      </section>
+
+      <section>
+        <h2>Tanlangan modellar</h2>
+        <div class="cards" id="featured"></div>
+      </section>
+
+      <section>
+        <h2>Aksiyalar</h2>
+        <div class="cards" id="sale"></div>
+      </section>
+    </div>
+
+    <div class="pg" id="p-catalog">
+      <section>
+        <h2 id="ctitle">Noutbuklar katalogi</h2>
+        <div class="cats" id="cats"></div>
+        <div class="tool">
+          <input type="search" id="q" placeholder="Qidiruv: model, CPU, GPU…" aria-label="Qidiruv">
+          <select id="fb" aria-label="Brend"></select>
+          <select id="fr" aria-label="RAM">
+            <option value="0">Barcha RAM</option>
+            <option value="16">16 GB+</option>
+            <option value="32">32 GB+</option>
+          </select>
+          <select id="fs" aria-label="Ekran">
+            <option value="0">Barcha ekran</option>
+            <option value="14">14″ gacha</option>
+            <option value="16">15″+</option>
+          </select>
+          <select id="fp" aria-label="Narx">
+            <option value="0">Barcha narx</option>
+            <option value="15">15 mln gacha</option>
+            <option value="30">30 mln gacha</option>
+            <option value="99">30 mln+</option>
+          </select>
+          <select id="fq" aria-label="Reyting">
+            <option value="0">Reyting</option>
+            <option value="4.5">4.5+</option>
+            <option value="4.8">4.8+</option>
+          </select>
+          <select id="so" aria-label="Saralash">
+            <option value="pop">Eng mashhur</option>
+            <option value="lo">Eng arzon</option>
+            <option value="hi">Eng qimmat</option>
+            <option value="new">Eng yangi</option>
+            <option value="rt">Eng yuqori reyting</option>
+          </select>
+        </div>
+        <div class="cards" id="grid"></div>
+      </section>
+    </div>
+
+    <div class="pg" id="p-battle">
+      <section>
+        <h2>⚔️ 1 vs 1 Noutbuklar Jangi</h2>
+        <p class="mu" style="margin-bottom:18px">Ikkita noutbukni tanlang va texnik ko‘rsatkichlar bo‘yicha g‘olibni aniqlang.</p>
+        <div id="battleArea"></div>
+      </section>
+    </div>
+
+    <div class="pg" id="p-swipe">
+      <section>
+        <h2>🔥 Svyap Tanlov</h2>
+        <p class="mu" style="margin-bottom:18px">Modellarni ko‘rib chiqing va o‘zingizga yoqqanlarini belgilang.</p>
+        <div id="swipeArea"></div>
+      </section>
+    </div>
+
+    <div class="pg" id="p-setup">
+      <section>
+        <h2>🛠 Ish Stoli (Setup) Yig‘ish</h2>
+        <p class="mu" style="margin-bottom:18px">Noutbuk va aksessuarlarni tanlang — komplekt uchun 10% chegirma avtomatik hisoblanadi.</p>
+        <div id="setupArea"></div>
+      </section>
+    </div>
+
+    <div class="pg" id="p-compare">
+      <section>
+        <h2>Noutbuklarni taqqoslash</h2>
+        <p class="mu" style="margin-bottom:16px">Katalogda “⇄” tugmasi bilan 2–4 ta model tanlang. Eng yaxshi ko‘rsatkichlar ajratiladi.</p>
+        <div id="cmp"></div>
+      </section>
+    </div>
+
+    <div class="pg" id="p-news">
+      <section>
+        <h2>Texnologik yangiliklar</h2>
+        <div class="news" id="newsG"></div>
+      </section>
+    </div>
+
+    <div class="pg" id="p-about">
+      <section>
+        <h2>Biz haqimizda</h2>
+        <p style="max-width:700px">NOUTBUK PRO — zamonaviy noutbuklar katalogi, interaktiv taqqoslash, Setup konstruktori va rasmiy elektron chekli buyurtma tizimiga ega veb-ilova.</p>
+        <h2 style="margin-top:36px">Aloqa</h2>
+        <form id="cf" novalidate style="max-width:440px">
+          <label>Ismingiz<input name="n" placeholder="Ismingiz"></label>
+          <div class="er"></div>
+          <label>Email<input name="e" type="email" placeholder="name@example.com"></label>
+          <div class="er"></div>
+          <label>Xabar<textarea name="m" rows="3" placeholder="Xabaringizni yozing..."></textarea></label>
+          <div class="er"></div>
+          <button class="btn" style="margin-top:12px">Yuborish</button>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <footer>© 2026 NOUTBUK PRO · GitHub uchun tayyor veb-loyiha.</footer>
+
+  <button id="chest-btn" onclick="openChest()">🎁 Sirli Sandiq</button>
+  <div class="ov" id="ovM"><div class="md" id="mb" role="dialog" aria-modal="true"></div></div>
+  <div class="ov dr" id="ovC"><div class="md" id="cb" role="dialog" aria-modal="true"></div></div>
+  <div id="toasts" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
